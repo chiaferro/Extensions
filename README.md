@@ -1,19 +1,19 @@
 # Extensions
-# 🔍 Beyond KeyBERT: Topic Modeling Extensions
+# Beyond KeyBERT: Topic Modeling Extensions
 
 This repository contains two advanced extensions for the [KeyBERT](https://github.com/MaartenGr/KeyBERT) framework, developed as part of a Deep NLP project at the Polytechnic of Turin.
 
 ---
 
-## 🧩 Extensions
+## Extensions
 
-### 1️⃣ Ablation Study – Candidate Filtering
+### 1 Ablation Study – Candidate Filtering
 - Dataset: CNN/DailyMail summaries (via Hugging Face)
 - Goal: Evaluate KeyBERT with vs. without syntactic candidate filtering
 - Output: Precision, Jaccard overlap, keyword length comparison
 - Notebook: `ablation_study.ipynb`
 
-### 2️⃣ Semantic Enrichment – WordNet Expansion
+### 2 Semantic Enrichment – WordNet Expansion
 - Dataset: BBC News articles
 - Goal: Improve topic coverage via synonym expansion of extracted keywords
 - Output: Coverage scores, enriched keyword sets
@@ -21,7 +21,7 @@ This repository contains two advanced extensions for the [KeyBERT](https://githu
 
 ---
 
-## 📊 Files
+## Files
 
 | File                          | Description                            |
 |-------------------------------|----------------------------------------|
@@ -32,7 +32,7 @@ This repository contains two advanced extensions for the [KeyBERT](https://githu
 
 ---
 
-## 📦 Setup & Requirements
+## Setup & Requirements
 
 Install dependencies:
 ```bash
